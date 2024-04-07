@@ -1,0 +1,68 @@
+﻿@model IEnumerable<PhotoApp.Models.Kep>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.cim)
+            </th>
+            <th>
+                orszag
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ertekeles)
+            </th>
+            <th>
+                fenykep
+            </th>
+            <th>
+                felhasznalo
+            </th>
+            <th>
+                album
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.cim)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReferencedOrszag.nev)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ertekeles)
+                </td>
+                <td>
+                    
+                    <img src="~/images/@item.fenykeputvonal" height="40" width="40"
+                         asp-append-version="true">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReferencedFelhasznalo.nev)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReferencedAlbum.cim)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

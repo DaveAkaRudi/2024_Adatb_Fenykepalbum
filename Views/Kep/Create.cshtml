@@ -1,0 +1,62 @@
+﻿@model PhotoApp.Models.Kep
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Kep</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data" asp-controller="Kep" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="cim" class="control-label"></label>
+                <input asp-for="cim" class="form-control" />
+                <span asp-validation-for="cim" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="orszag_id" class="control-label"></label>
+                <select asp-for="orszag_id" class ="form-control" asp-items="ViewBag.orszag_id"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ertekeles" class="control-label"></label>
+                <input asp-for="ertekeles" class="form-control" min="0" max="10" step="1"/>
+                <span asp-validation-for="ertekeles" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="album_id" class="control-label"></label>
+                <select asp-for="album_id" class ="form-control" asp-items="ViewBag.album_id"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="felhasz_id" class="control-label"></label>
+                <select asp-for="felhasz_id" class ="form-control" asp-items="ViewBag.felhasz_id"></select>
+            </div>
+            <div class="form-group" hidden>
+                <label class="control-label">fenykep</label>
+                <input asp-for="fenykeputvonal" class="form-control" value="fenykeputvonal" />
+
+            </div>
+
+
+            <div class="form-group">
+                <label class="control-label">fenykep</label> <br />
+                <input asp-for="ImageFile" type="file" name="ImageFile" class="form-control-file" accept="image/jpeg,image/jpg,image/png" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

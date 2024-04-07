@@ -1,0 +1,55 @@
+﻿@model PhotoApp.Models.Kep
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Kep</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.cim)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.cim)
+        </dd>
+        <dt class="col-sm-2">
+            orszag
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReferencedOrszag.nev)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ertekeles)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ertekeles)
+        </dd>
+        <dt class="col-sm-2">
+            fenykep
+        </dt>
+        <dd class="col-sm-10">
+            <img src="~/images/@Model.fenykeputvonal" height="200" width="200"
+                 asp-append-version="true">
+        </dd>
+        <dt class="col-sm-2">
+            felhasznalo
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReferencedFelhasznalo.nev)
+        </dd>
+        <dt class="col-sm-2">
+            album
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReferencedAlbum.cim)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
