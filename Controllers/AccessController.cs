@@ -86,6 +86,7 @@ namespace PhotoApp.Controllers
 
             _context.felhasznalok.Add(felhasznalo);
 
+            Create(felhasznalo);
 
             _context.SaveChanges();
 
