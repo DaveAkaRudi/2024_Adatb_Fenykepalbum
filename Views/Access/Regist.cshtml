@@ -1,4 +1,4 @@
-﻿@model PhotoApp.Models.Felhasznalo;
+@model PhotoApp.Models.Felhasznalo;
 @{
     Layout = null;
 }
@@ -8,7 +8,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Login</title>
+    <title>Regist</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
 
      <style>
@@ -23,20 +23,28 @@
         <div class="row justify-content-center">
             <div class="col-md-4 login-container">
                
-                <form asp-controller="Access" asp-action="Login" method="post">
+                <form asp-controller="Access" asp-action="Regist" method="post">
                     <div class="mb-3">
                         <label class="form-label">Felhasználónév</label>
                         <input type="text" asp-for="nev" class="form-control" autocomplete="off">
                     </div>
                     <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" asp-for="email" class="form-control" autocomplete="off">
+                    </div>
+                    <div class="mb-3">
                         <label class="form-label">Jelszó</label>
                         <input type="password" asp-for="jelszo" class="form-control">
                     </div>
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" asp-for="rememberMe" class="form-check-input" checked>
-                        <label class="form-check-label" for="rememberMe">Emlékezz rám</label>
+                    <div class="mb-3">
+                        <label class="form-label">Jelszó megismétlése</label>
+                        <input type="password" asp-for="jelszo" class="form-control">
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block">Bejelentkezés</button>
+                    <div class="mb-3">
+                        <label class="form-label">Születés dátuma</label>
+                        <input type="date" asp-for="szuletes_datuma" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Regisztráció</button>
                     @if (ViewData["ValidateMessage"] != null)
                     {
                         <br />
@@ -45,9 +53,9 @@
                 </form>
 
                 <div>
-                    Nincs még fiókja? Az <a asp-action="Regist">alábbi linken</a> tud regisztrálni.
+                    Van már fiókja? Az <a asp-action="Login">alábbi linken</a> tud be tud lépni.
                 </div>
-                
+
             </div>
         </div>
     </div>

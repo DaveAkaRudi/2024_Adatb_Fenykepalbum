@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Logic\\Desktop\\PhotoApp\\PhotoApp.csproj": {}
+    "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Logic\\Desktop\\PhotoApp\\PhotoApp.csproj": {
+    "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logic\\Desktop\\PhotoApp\\PhotoApp.csproj",
+        "projectUniqueName": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
         "projectName": "PhotoApp",
-        "projectPath": "C:\\Users\\Logic\\Desktop\\PhotoApp\\PhotoApp.csproj",
-        "packagesPath": "C:\\Users\\Logic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logic\\Desktop\\PhotoApp\\obj\\",
+        "projectPath": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Logic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,6 +81,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.28, 6.0.28]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

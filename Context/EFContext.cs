@@ -22,10 +22,20 @@ namespace PhotoApp.Context
 
         public DbSet<KepKategoria>? KepKategoria { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        private void MisiDBConfig(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseOracle(@"User Id=LAJOS;Password=lajos;Data Source=localhost:1521/XEPDB1");
+        }
 
+        private void RajmundDBConfig(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseOracle(@"User Id=system;Password=admin;Data Source=192.168.0.199:1521/XEPDB1");
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            // MisiDBConfig(optionsBuilder);
+            RajmundDBConfig(optionsBuilder);
         }
 
     }

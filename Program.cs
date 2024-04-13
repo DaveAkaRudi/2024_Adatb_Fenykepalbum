@@ -41,4 +41,8 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Access}/{action=Login}/{id?}");
 
+app.MapControllerRoute(
+    name: "regist",
+    pattern: "{controller=Access}/{action=Regist}");
+
 app.Run();

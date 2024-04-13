@@ -9,201 +9,207 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PhotoApp
 build_property.RootNamespace = PhotoApp
-build_property.ProjectDir = C:\Users\Logic\Desktop\PhotoApp\
+build_property.ProjectDir = D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Logic\Desktop\PhotoApp
+build_property.MSBuildProjectDirectory = D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Access/Login.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Access/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Album/Create.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Access/Regist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFJlZ2lzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Album/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Album/Delete.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Album/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Album/Details.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Album/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Album/Edit.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Album/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Album/Index.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Album/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Felhasznalo/Create.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Felhasznalo/Delete.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Felhasznalo/Details.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Felhasznalo/Edit.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Felhasznalo/Index.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Home/Index.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Home/Privacy.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kategoria/Create.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kategoria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kategoria/Delete.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kategoria/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kategoria/Details.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kategoria/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kategoria/Edit.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kategoria/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kategoria/Index.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kategoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/KepKategoria/Create.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/KepKategoria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/KepKategoria/Delete.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/KepKategoria/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/KepKategoria/Details.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/KepKategoria/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/KepKategoria/Edit.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/KepKategoria/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/KepKategoria/Index.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/KepKategoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kep/Create.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kep/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kep/Delete.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kep/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kep/Details.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kep/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kep/Edit.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kep/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Kep/Index.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Kep/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Komment/Create.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Komment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Komment/Delete.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Komment/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Komment/Details.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Komment/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Komment/Edit.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Komment/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Komment/Index.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Komment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Orszag/Create.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Orszag/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Orszag/Delete.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Orszag/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Orszag/Details.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Orszag/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Orszag/Edit.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Orszag/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Orszag/Index.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Orszag/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Palyazat/Create.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Palyazat/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Palyazat/Delete.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Palyazat/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Palyazat/Details.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Palyazat/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Palyazat/Edit.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Palyazat/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Palyazat/Index.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Palyazat/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Shared/Error.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/_ViewImports.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/_ViewStart.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/PhotoApp/Views/Shared/_Layout.cshtml]
+[D:/_uni/IV. felev/Adatbazis alapu rendszerek/_projekt/2024_Adatb_Fenykepalbum/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dtx7drq6ez
