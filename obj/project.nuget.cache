@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KgOW454U2F67Eo5SFf2u6sElm2utIeEIuHD5BX13YMqeYoociozrwFTCbSD0Ab/jQfUAGrh+qZf8SGOP9S2SyA==",
+  "dgSpecHash": "zqnRZYoKv1yuNVWLAr1kSeb5xQsWFKCOI6QqTpaKMpo1G25W+qwb3YD4AWMku4fUdWARCh2csoK4wwdwxYTTtw==",
   "success": true,
   "projectFilePath": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
   "expectedPackageFiles": [
@@ -231,11 +231,7 @@
     "C:\\Users\\carlo\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
+    "C:\\Users\\carlo\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

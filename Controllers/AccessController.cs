@@ -79,20 +79,53 @@ namespace PhotoApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Regist(Felhasznalo felhasznalo)
         {
-            // SqlCommand registCommand = new SqlCommand($"INSERT INTO felhasznalok (nev,email,jelszo,szuletes_datuma,role) VALUES ('{felhasznalo.nev}','{felhasznalo.email}','{felhasznalo.jelszo}',TO_DATE('{felhasznalo.szuletes_datuma}','YYYY-MM-DD'),'member');");
+            var emailUsed = _context.felhasznalok.FirstOrDefault(u => u.nev == felhasznalo.nev);
+            var usernameUsed = _context.felhasznalok.FirstOrDefault(u => u.email == felhasznalo.email);
 
-            // registCommand.ExecuteNonQuery();
+            if((emailUsed!=null) && (usernameUsed==null)){
+
+                ViewData["ValidateMessage"] = "Registration failed! Email already used.";
+
+                return View();
+            }
+
+            if((emailUsed==null) && (usernameUsed!=null)){
+
+                ViewData["ValidateMessage"] = "Registration failed! Username already used.";
+
+                return View();
+            }
+
+            if((emailUsed!=null) && (usernameUsed!=null)){
+
+                ViewData["ValidateMessage"] = "Registration failed! Email and Username already used.";
+
+                return View();
+            }
+
+            var password = Request.Form["password"];
+            var passwordCheck = Request.Form["password_check"];
+            
+            if((password != passwordCheck)){
+
+                ViewData["ValidateMessage"] = "Registration failed! The password not matched.";
+
+                return View();
+
+            }
+
+            felhasznalo.jelszo=password;
 
 
             _context.felhasznalok.Add(felhasznalo);
 
-            Create(felhasznalo);
-
             _context.SaveChanges();
 
-            // ViewData["ValidateMessage"] = felhasznalo.nev;
+            ViewData["ValidateMessage"] = "Registration successfully! Now you can login to your account.";
 
-            return View();
+            return RedirectToAction("Index", "Home");   
+
+
         }
     }
 }
