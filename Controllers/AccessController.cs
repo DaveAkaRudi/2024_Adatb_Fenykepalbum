@@ -23,7 +23,27 @@ namespace PhotoApp.Controllers
             _context = context;
            
         }
+        public IActionResult Connected()
+        {
+            ViewBag.IsConnected = CheckDatabaseConnection();
+            return View();
+        }
 
+        private bool CheckDatabaseConnection()
+        {
+            try
+            {
+                using (var dbCon = new EFContext())
+                {
+                    var data = dbCon.orszagok.FirstOrDefault();
+                    return true;
+                }
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
 
 
         //  LOGIN METHODS

@@ -11287,24 +11287,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Logic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
+      "projectUniqueName": "C:\\Users\\Logic\\Desktop\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
       "projectName": "PhotoApp",
-      "projectPath": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\obj\\",
+      "projectPath": "C:\\Users\\Logic\\Desktop\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
+      "packagesPath": "C:\\Users\\Logic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Logic\\Desktop\\2024_Adatb_Fenykepalbum\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Logic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11324,11 +11319,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -11381,7 +11371,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
