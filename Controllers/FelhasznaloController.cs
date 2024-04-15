@@ -30,26 +30,26 @@ namespace PhotoApp.Controllers
                           Problem("Entity set 'EFContext.felhasznalok'  is null.");
         }
 
-        // GET: Felhasznalo/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null || _context.felhasznalok == null)
-            {
-                return NotFound();
-            }
+		// GET: Felhasznalo/Details/5
+		public async Task<IActionResult> Details(int? id)
+		{
+			if (id == null || _context.felhasznalok == null)
+			{
+				return NotFound();
+			}
 
-            var felhasznalo = await _context.felhasznalok
-                .FirstOrDefaultAsync(m => m.id == id);
-            if (felhasznalo == null)
-            {
-                return NotFound();
-            }
+			var felhasznalo = await _context.felhasznalok
+				.FirstOrDefaultAsync(m => m.id == id);
+			if (felhasznalo == null)
+			{
+				return NotFound();
+			}
 
-            return View(felhasznalo);
-        }
+			return View(felhasznalo);
+		}
 
-        // GET: Felhasznalo/Create
-        public IActionResult Create()
+		// GET: Felhasznalo/Create
+		public IActionResult Create()
         {
             return View();
         }
@@ -139,24 +139,24 @@ namespace PhotoApp.Controllers
             return View(felhasznalo);
         }
 
-        // POST: Felhasznalo/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            if (_context.felhasznalok == null)
-            {
-                return Problem("Entity set 'EFContext.felhasznalok'  is null.");
-            }
-            var felhasznalo = await _context.felhasznalok.FindAsync(id);
-            if (felhasznalo != null)
-            {
-                _context.felhasznalok.Remove(felhasznalo);
-            }
-            
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
+		// POST: Felhasznalo/Delete/5
+		[HttpPost, ActionName("Delete")]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> DeleteConfirmed(int id)
+		{
+			if (_context.felhasznalok == null)
+			{
+				return Problem("Entity set 'EFContext.felhasznalok'  is null.");
+			}
+			var felhasznalo = await _context.felhasznalok.FindAsync(id);
+			if (felhasznalo != null)
+			{
+				_context.felhasznalok.Remove(felhasznalo);
+			}
+
+			await _context.SaveChangesAsync();
+			return RedirectToAction(nameof(Index));
+		}
 
         private bool FelhasznaloExists(int id)
         {

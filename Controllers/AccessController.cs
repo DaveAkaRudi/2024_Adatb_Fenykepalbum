@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Identity;
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Data.SqlClient;
+using System.Text;
+using System.Security.Cryptography;
 
 namespace PhotoApp.Controllers
 {
@@ -36,42 +38,46 @@ namespace PhotoApp.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Login(Felhasznalo felhasznalo)
-        {
-            
-            var user = _context.felhasznalok.FirstOrDefault(u => u.nev == felhasznalo.nev && u.jelszo == felhasznalo.jelszo);
-            
-            if (user != null)
-            {
+		[HttpPost]
+		public async Task<IActionResult> Login(Felhasznalo felhasznalo)
+		{
+			var user = await _context.felhasznalok
+				.FirstOrDefaultAsync(u => u.nev == felhasznalo.nev);
 
-                List<Claim> claims = new List<Claim>()
-                {
-                    new Claim(ClaimTypes.NameIdentifier,felhasznalo.nev),
-                    
+			if (user != null)
+			{
+
+				string hashedPassword = HashPassword(felhasznalo.jelszo);
+
+				if (hashedPassword == user.jelszo)
+				{
+					List<Claim> claims = new List<Claim>()
+					{
+						new Claim(ClaimTypes.NameIdentifier, felhasznalo.nev),
+					};
+
+					ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+					AuthenticationProperties properties = new AuthenticationProperties()
+					{
+						AllowRefresh = true,
+						IsPersistent = felhasznalo.rememberMe,
+					};
+
+					await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), properties);
+
+					return RedirectToAction("Index", "Home");
+				}
+			}
+
+			ViewData["ValidateMessage"] = "Invalid username or password";
+			return View();
+		}
 
 
-                };
-                ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                AuthenticationProperties properties = new AuthenticationProperties()
-                {
-                    AllowRefresh = true,
-                    IsPersistent = felhasznalo.rememberMe,
-                };
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity), properties);
 
-                return RedirectToAction("Index", "Home");
-            }
-           
-            ViewData["ValidateMessage"] = "Invalid username or password";
-            return View();
-        }
+		//  REGIST METHODS
 
-
-
-        //  REGIST METHODS
-
-        public IActionResult Regist()
+		public IActionResult Regist()
         {
             return View();
         }
@@ -114,10 +120,12 @@ namespace PhotoApp.Controllers
 
             }
 
-            felhasznalo.jelszo=password;
+			string hashedPassword = HashPassword(password);
+
+			felhasznalo.jelszo = hashedPassword;
 
 
-            _context.felhasznalok.Add(felhasznalo);
+			_context.felhasznalok.Add(felhasznalo);
 
             _context.SaveChanges();
 
@@ -127,5 +135,19 @@ namespace PhotoApp.Controllers
 
 
         }
-    }
+
+		private string HashPassword(string password)
+		{
+			using (SHA256 sha256 = SHA256.Create())
+			{
+				byte[] hashedBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+				StringBuilder builder = new StringBuilder();
+				foreach (byte b in hashedBytes)
+				{
+					builder.Append(b.ToString("x2"));
+				}
+				return builder.ToString();
+			}
+		}
+	}
 }

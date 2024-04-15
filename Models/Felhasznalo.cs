@@ -23,7 +23,7 @@ namespace PhotoApp.Models
         public string email { get; set; } = String.Empty;
 
         [MinLength(6)]
-        [MaxLength(32)]
+        [MaxLength(64)]
         public string jelszo { get; set; } = String.Empty;
 
         [Display(Name = "szuletes datuma")]
