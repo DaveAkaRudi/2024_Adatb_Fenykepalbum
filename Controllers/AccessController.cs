@@ -105,8 +105,8 @@ namespace PhotoApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Regist(Felhasznalo felhasznalo)
         {
-            var emailUsed = _context.felhasznalok.FirstOrDefault(u => u.nev == felhasznalo.nev);
-            var usernameUsed = _context.felhasznalok.FirstOrDefault(u => u.email == felhasznalo.email);
+            var usernameUsed = _context.felhasznalok.FirstOrDefault(u => u.nev == felhasznalo.nev);
+            var emailUsed = _context.felhasznalok.FirstOrDefault(u => u.email == felhasznalo.email);
 
             if((emailUsed!=null) && (usernameUsed==null)){
 
@@ -149,7 +149,7 @@ namespace PhotoApp.Controllers
 
             _context.SaveChanges();
 
-            ViewData["ValidateMessage"] = "Registration successfully! Now you can login to your account.";
+            TempData["SuccessMessage"] = "Sikeres regisztráció";
 
             return RedirectToAction("Index", "Home");   
 

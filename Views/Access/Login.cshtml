@@ -26,7 +26,22 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-4 login-container">
-               
+                <div>
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success" role="alert">
+                            @TempData["SuccessMessage"]
+                        </div>
+                    }
+                    <div>
+                        @if (ViewData["ValidateMessage"] != null)
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                @ViewData["ValidateMessage"]
+                            </div>
+                        }
+                    </div>
+                </div>
                 <form asp-controller="Access" asp-action="Login" method="post">
                     <div class="mb-3">
                         <label class="form-label">Felhasználónév</label>
@@ -41,11 +56,7 @@
                         <label class="form-check-label" for="rememberMe">Emlékezz rám</label>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">Bejelentkezés</button>
-                    @if (ViewData["ValidateMessage"] != null)
-                    {
-                        <br />
-                        <label>@ViewData["ValidateMessage"]</label>
-                    }
+                 
                 </form>
 
                 <div>
