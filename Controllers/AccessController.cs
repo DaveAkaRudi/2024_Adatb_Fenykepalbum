@@ -4,11 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using PhotoApp.Models;
 using System.Security.Claims;
 using PhotoApp.Context;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.AspNetCore.Identity;
-using System;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Data.SqlClient;
 using System.Text;
 using System.Security.Cryptography;
 
@@ -105,27 +101,25 @@ namespace PhotoApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Regist(Felhasznalo felhasznalo)
         {
+            try
+            {
             var usernameUsed = _context.felhasznalok.FirstOrDefault(u => u.nev == felhasznalo.nev);
             var emailUsed = _context.felhasznalok.FirstOrDefault(u => u.email == felhasznalo.email);
 
-            if((emailUsed!=null) && (usernameUsed==null)){
-
-                ViewData["ValidateMessage"] = "Registration failed! Email already used.";
-
-                return View();
-            }
-
-            if((emailUsed==null) && (usernameUsed!=null)){
-
-                ViewData["ValidateMessage"] = "Registration failed! Username already used.";
-
-                return View();
-            }
-
-            if((emailUsed!=null) && (usernameUsed!=null)){
-
+            if ((emailUsed != null) && (usernameUsed != null))
+            {
                 ViewData["ValidateMessage"] = "Registration failed! Email and Username already used.";
+                return View();
+            }
+            
+            if((emailUsed==null) && (usernameUsed!=null)){
+                ViewData["ValidateMessage"] = "Registration failed! Username already used.";
+                return View();
+            }
 
+            if ((emailUsed != null) && (usernameUsed == null))
+            {
+                ViewData["ValidateMessage"] = "Registration failed! Email already used.";
                 return View();
             }
 
@@ -133,26 +127,26 @@ namespace PhotoApp.Controllers
             var passwordCheck = Request.Form["password_check"];
             
             if((password != passwordCheck)){
-
                 ViewData["ValidateMessage"] = "Registration failed! The password not matched.";
-
                 return View();
-
             }
 
 			string hashedPassword = HashPassword(password);
-
 			felhasznalo.jelszo = hashedPassword;
 
-
-			_context.felhasznalok.Add(felhasznalo);
+            
+            _context.felhasznalok.Add(felhasznalo);
 
             _context.SaveChanges();
-
+            }
+            catch (Exception ex)
+            {
+                return View();
+            }
             TempData["SuccessMessage"] = "Sikeres regisztráció";
 
-            return RedirectToAction("Index", "Home");   
-
+            return RedirectToAction("Index", "Home");
+        
 
         }
 
