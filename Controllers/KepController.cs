@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using PhotoApp.Context;
 using PhotoApp.Models;
 using System.Security.Claims;
+using static PhotoApp.Models.Felhasznalo;
 
 namespace PhotoApp.Controllers
 {
@@ -36,6 +37,15 @@ namespace PhotoApp.Controllers
         public async Task<IActionResult> Index()
         {
             var eFContext = _context.kepek.Include(k => k.ReferencedAlbum).Include(k => k.ReferencedFelhasznalo).Include(k => k.ReferencedOrszag);
+
+            if(loggedUserInfo().role == Role.Admin){
+                ViewBag.felhasz_role = 1;
+            }else{
+                ViewBag.felhasz_role = 0;
+            }
+
+            ViewBag.felhasz_id = loggedUserInfo().id;
+
             return View(await eFContext.ToListAsync());
         }
 
@@ -46,6 +56,14 @@ namespace PhotoApp.Controllers
             {
                 return NotFound();
             }
+
+            if(loggedUserInfo().role == Role.Admin){
+                ViewBag.felhasz_role = 1;
+            }else{
+                ViewBag.felhasz_role = 0;
+            }
+
+            ViewBag.felhasz_id = loggedUserInfo().id;
 
             var kep = await _context.kepek
                 .Include(k => k.ReferencedAlbum)
@@ -63,9 +81,16 @@ namespace PhotoApp.Controllers
         // GET: Kep/Create
         public IActionResult Create()
         {
-            ViewData["album_id"] = new SelectList(_context.albumok, "id", "id");
-            ViewData["felhasz_id"] = new SelectList(_context.felhasznalok, "id", "id");
-            ViewData["orszag_id"] = new SelectList(_context.orszagok, "id", "id");
+            if(loggedUserInfo().role == Role.Admin){
+                ViewBag.felhasz_role = 1;
+            }else{
+                ViewBag.felhasz_role = 0;
+            }
+
+            ViewBag.logged_felhasz_id = loggedUserInfo().id;
+            ViewData["album_id"] = new SelectList(_context.albumok, "id", "cim");
+            ViewData["felhasz_id"] = new SelectList(_context.felhasznalok, "id", "id",loggedUserInfo().id);
+            ViewData["orszag_id"] = new SelectList(_context.orszagok, "id", "nev");
             return View();
         }
 
@@ -83,9 +108,16 @@ namespace PhotoApp.Controllers
                 {
                     // Handle the case where no image is selected
                     ModelState.AddModelError("ImageFile", "Please select an image.");
-                    ViewData["album_id"] = new SelectList(_context.albumok, "id", "cim", kep.album_id);
-                    ViewData["felhasz_id"] = new SelectList(_context.felhasznalok, "id", "nev", kep.felhasz_id);
-                    ViewData["orszag_id"] = new SelectList(_context.felhasznalok, "id", "nev", kep.orszag_id);
+                    if(loggedUserInfo().role == Role.Admin){
+                        ViewBag.felhasz_role = 1;
+                    }else{
+                        ViewBag.felhasz_role = 0;
+                    }
+
+                    ViewBag.logged_felhasz_id = loggedUserInfo().id;
+                    ViewData["album_id"] = new SelectList(_context.albumok, "id", "cim");
+                    ViewData["felhasz_id"] = new SelectList(_context.felhasznalok, "id", "id",loggedUserInfo().nev);
+                    ViewData["orszag_id"] = new SelectList(_context.orszagok, "id", "nev");
                     return View(kep); // Return to the view with an error message
                 }
 
@@ -112,6 +144,17 @@ namespace PhotoApp.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
+            if(loggedUserInfo().role == Role.Admin){
+                ViewBag.felhasz_role = 1;
+            }else{
+                ViewBag.felhasz_role = 0;
+            }
+
+            ViewBag.logged_felhasz_id = loggedUserInfo().id;
+            ViewData["album_id"] = new SelectList(_context.albumok, "id", "cim");
+            ViewData["felhasz_id"] = new SelectList(_context.felhasznalok, "id", "id",loggedUserInfo().id);
+            ViewData["orszag_id"] = new SelectList(_context.orszagok, "id", "nev");
             ViewData["album_id"] = new SelectList(_context.albumok, "id", "cim", kep.album_id);
             ViewData["felhasz_id"] = new SelectList(_context.felhasznalok, "id", "nev", kep.felhasz_id);
             ViewData["orszag_id"] = new SelectList(_context.felhasznalok, "id", "nev", kep.orszag_id);
@@ -126,11 +169,21 @@ namespace PhotoApp.Controllers
                 return NotFound();
             }
 
+            if(loggedUserInfo().role == Role.Admin){
+                ViewBag.felhasz_role = 1;
+            }else{
+                ViewBag.felhasz_role = 0;
+            }
+
+            ViewBag.logged_felhasz_id = loggedUserInfo().id;
+
             var kep = await _context.kepek.FindAsync(id);
             if (kep == null)
             {
                 return NotFound();
             }
+            ViewData["kep_id"] = kep.id;
+            ViewData["created_felhasz_id"] = kep.felhasz_id;
             ViewData["album_id"] = new SelectList(_context.albumok, "id", "id", kep.album_id);
             ViewData["felhasz_id"] = new SelectList(_context.felhasznalok, "id", "id", kep.felhasz_id);
             ViewData["orszag_id"] = new SelectList(_context.orszagok, "id", "id", kep.orszag_id);
@@ -226,6 +279,14 @@ namespace PhotoApp.Controllers
             {
                 return NotFound();
             }
+
+            if(loggedUserInfo().role == Role.Admin){
+                ViewBag.felhasz_role = 1;
+            }else{
+                ViewBag.felhasz_role = 0;
+            }
+
+            ViewBag.felhasz_id = loggedUserInfo().id;
 
             return View(kep);
         }

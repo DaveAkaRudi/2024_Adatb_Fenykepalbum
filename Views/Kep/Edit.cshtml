@@ -66,6 +66,10 @@
 </div>
 
 <div>
+    @if((@ViewBag.felhasz_role==1) || (@ViewBag.created_felhasz_id==@ViewBag.logged_felhasz_id)){
+        <a asp-action="Delete" asp-route-id="@Model?.id">Delete</a> 
+        <a asp-action="Details" asp-route-id="@Model.id">Details</a>
+    }
     <a asp-action="Index">Back to List</a>
 </div>
 
