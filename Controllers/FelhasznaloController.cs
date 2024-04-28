@@ -35,6 +35,11 @@ namespace PhotoApp.Controllers
         // GET: Felhasznalo
         public async Task<IActionResult> Index()
         {
+            if(loggedUserInfo().role==Felhasznalo.Role.User){
+                ViewBag.felhasz_role = 0;
+                return RedirectToAction("Details","Felhasznalo");
+            }
+            ViewBag.felhasz_role = 1;
               return _context.felhasznalok != null ? 
                           View(await _context.felhasznalok.ToListAsync()) :
                           Problem("Entity set 'EFContext.felhasznalok'  is null.");
@@ -43,6 +48,10 @@ namespace PhotoApp.Controllers
 		// GET: Felhasznalo/Details/5
 		public async Task<IActionResult> Details(int? id)
 		{
+            if(id==null){
+                id = loggedUserInfo().id;
+            }
+
 			if (id == null || _context.felhasznalok == null)
 			{
 				return NotFound();

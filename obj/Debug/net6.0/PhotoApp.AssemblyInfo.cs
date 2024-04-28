@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d906331084129ae50241f552b0102af1818414c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db4e03a77b3834f26118f89a94bf6e538d19879b")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
