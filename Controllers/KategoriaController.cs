@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PhotoApp.Context;
 using PhotoApp.Models;
+using System.Security.Claims;
 
 namespace PhotoApp.Controllers
 {
@@ -17,6 +18,16 @@ namespace PhotoApp.Controllers
         public KategoriaController(EFContext context)
         {
             _context = context;
+        }
+
+        public Felhasznalo userInfo(string nev){
+            return _context.felhasznalok.FirstOrDefault(a => a.nev == nev);
+        }
+
+        public Felhasznalo loggedUserInfo(){
+            var identity = (ClaimsIdentity)User.Identity;
+            var nev = identity.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            return userInfo(nev);
         }
 
         // GET: Kategoria

@@ -7,6 +7,9 @@ using PhotoApp.Context;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
 using System.Security.Cryptography;
+using Microsoft.Net.Http.Headers;
+using System.Net;
+using System.Web;
 
 namespace PhotoApp.Controllers
 {
@@ -85,6 +88,7 @@ namespace PhotoApp.Controllers
 				}
 			}
 
+
 			ViewData["ValidateMessage"] = "Invalid username or password";
 			return View();
 		}
@@ -134,15 +138,16 @@ namespace PhotoApp.Controllers
 			string hashedPassword = HashPassword(password);
 			felhasznalo.jelszo = hashedPassword;
 
-            
             _context.felhasznalok.Add(felhasznalo);
 
             _context.SaveChanges();
+            
             }
             catch (Exception ex)
             {
                 return View();
             }
+            
             TempData["SuccessMessage"] = "Sikeres regisztráció";
 
             return RedirectToAction("Index", "Home");

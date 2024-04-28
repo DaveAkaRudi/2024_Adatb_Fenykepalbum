@@ -1442,3 +1442,6 @@ C:\Users\Logic\Desktop\xdd\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\ref\PhotoApp
 C:\Users\Logic\Desktop\xdd\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 C:\Users\Logic\Desktop\xdd\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Logic\Desktop\xdd\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

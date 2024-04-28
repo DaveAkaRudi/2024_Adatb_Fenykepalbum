@@ -27,7 +27,6 @@ namespace PhotoApp.Controllers
             var identity = (ClaimsIdentity)User.Identity;
 
             ViewBag.nev = identity.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-        
 
             return View();
         }

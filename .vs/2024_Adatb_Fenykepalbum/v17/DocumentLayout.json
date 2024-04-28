@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\20240316100245_initial.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240316100245_initial.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\20240316100245_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240316100245_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Controllers\\AccessController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AccessController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\EFContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\EFContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Controllers\\AccessController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AccessController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\20240316100245_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240316100245_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\20240316100245_initial.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240316100245_initial.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Context\\EFContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,37 +34,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "20240316100245_initial.Designer.cs",
               "DocumentMoniker": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\20240316100245_initial.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20240316100245_initial.Designer.cs",
               "ToolTip": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\20240316100245_initial.Designer.cs",
               "RelativeToolTip": "Migrations\\20240316100245_initial.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:49:03.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:49:03.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "20240316100245_initial.cs",
               "DocumentMoniker": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\20240316100245_initial.cs",
               "RelativeDocumentMoniker": "Migrations\\20240316100245_initial.cs",
               "ToolTip": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\20240316100245_initial.cs",
               "RelativeToolTip": "Migrations\\20240316100245_initial.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:48:40.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:48:40.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EFContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Migrations\\EFContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\EFContextModelSnapshot.cs",
@@ -77,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AccessController.cs",
               "DocumentMoniker": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Controllers\\AccessController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccessController.cs",
               "ToolTip": "D:\\_uni\\IV. felev\\Adatbazis alapu rendszerek\\_projekt\\2024_Adatb_Fenykepalbum\\Controllers\\AccessController.cs",
               "RelativeToolTip": "Controllers\\AccessController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T13:48:34.404Z",
               "EditorCaption": ""
@@ -98,8 +94,7 @@
               "RelativeToolTip": "Context\\EFContext.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:46:40.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:46:40.118Z"
             },
             {
               "$type": "Document",
@@ -111,8 +106,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T13:44:38.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:44:38.1Z"
             }
           ]
         }

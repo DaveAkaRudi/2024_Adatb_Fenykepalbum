@@ -7,6 +7,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PhotoApp.Context;
 using PhotoApp.Models;
+using System.Security.Claims;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.Build.Logging;
 
 namespace PhotoApp.Controllers
 {
@@ -19,10 +22,30 @@ namespace PhotoApp.Controllers
             _context = context;
         }
 
-        // GET: Album
+        public Felhasznalo userInfo(string nev){
+            return _context.felhasznalok.FirstOrDefault(a => a.nev == nev);
+        }
+
+        public Felhasznalo loggedUserInfo(){
+            var identity = (ClaimsIdentity)User.Identity;
+            var nev = identity.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            return userInfo(nev);
+        }
+
         public async Task<IActionResult> Index()
         {
             var eFContext = _context.albumok.Include(a => a.ReferencedFelhasznalo);
+
+            var user = loggedUserInfo();
+
+            if(user.role == Felhasznalo.Role.User){
+                ViewBag.role = 0;
+            }else{
+                ViewBag.role = 1;
+            }
+
+            ViewBag.felhaszID = user.id;
+
             return View(await eFContext.ToListAsync());
         }
 
@@ -48,7 +71,14 @@ namespace PhotoApp.Controllers
         // GET: Album/Create
         public IActionResult Create()
         {
-            ViewData["felhasz_id"] = new SelectList(_context.felhasznalok, "id", "id");
+            var user = loggedUserInfo();
+            if(user.role == Felhasznalo.Role.User){
+                ViewData["felhasz_role"] = 0;
+            }else{
+                ViewData["felhasz_role"] = 1;
+            }
+            ViewData["felhasz_id"] = new SelectList(_context.felhasznalok, "id", "id",user.id);
+
             return View();
         }
 
