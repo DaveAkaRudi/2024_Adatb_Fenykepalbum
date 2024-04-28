@@ -9,209 +9,209 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PhotoApp
 build_property.RootNamespace = PhotoApp
-build_property.ProjectDir = C:\Users\Logic\Desktop\2024_Adatb_Fenykepalbum\
+build_property.ProjectDir = C:\Users\Logic\Desktop\xdd\2024_Adatb_Fenykepalbum\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Logic\Desktop\2024_Adatb_Fenykepalbum
+build_property.MSBuildProjectDirectory = C:\Users\Logic\Desktop\xdd\2024_Adatb_Fenykepalbum
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Access/Connected.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Access/Connected.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXENvbm5lY3RlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Access/Login.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Access/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Access/Regist.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Access/Regist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFJlZ2lzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Album/Create.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Album/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Album/Delete.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Album/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Album/Details.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Album/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Album/Edit.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Album/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Album/Index.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Album/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWxidW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Create.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Delete.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Details.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Edit.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Index.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Felhasznalo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVsaGFzem5hbG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Home/Index.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Home/Privacy.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kategoria/Create.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kategoria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kategoria/Delete.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kategoria/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kategoria/Details.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kategoria/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kategoria/Edit.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kategoria/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kategoria/Index.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kategoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/KepKategoria/Create.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/KepKategoria/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/KepKategoria/Delete.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/KepKategoria/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/KepKategoria/Details.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/KepKategoria/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/KepKategoria/Edit.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/KepKategoria/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/KepKategoria/Index.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/KepKategoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwS2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kep/Create.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kep/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kep/Delete.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kep/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kep/Details.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kep/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kep/Edit.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kep/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Kep/Index.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Kep/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2VwXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Komment/Create.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Komment/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Komment/Delete.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Komment/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Komment/Details.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Komment/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Komment/Edit.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Komment/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Komment/Index.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Komment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29tbWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Orszag/Create.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Lekerdezes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGVrZXJkZXplc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Orszag/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Orszag/Delete.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Orszag/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Orszag/Details.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Orszag/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Orszag/Edit.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Orszag/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Orszag/Index.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Orszag/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JzemFnXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Palyazat/Create.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Palyazat/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Palyazat/Delete.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Palyazat/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Palyazat/Details.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Palyazat/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Palyazat/Edit.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Palyazat/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Palyazat/Index.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Palyazat/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFseWF6YXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/_ViewImports.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/_ViewStart.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Logic/Desktop/2024_Adatb_Fenykepalbum/Views/Shared/_Layout.cshtml]
+[C:/Users/Logic/Desktop/xdd/2024_Adatb_Fenykepalbum/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-dtx7drq6ez

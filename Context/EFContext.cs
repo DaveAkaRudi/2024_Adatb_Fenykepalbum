@@ -5,7 +5,7 @@ using System.Xml.Linq;
 
 namespace PhotoApp.Context
 {
-    public class EFContext:DbContext
+    public partial class EFContext:DbContext
     {
         public EFContext()
         {
@@ -17,7 +17,7 @@ namespace PhotoApp.Context
         public DbSet<Kategoria> kategoriak { get; set; }
         public DbSet<Kep> kepek { get; set; }
         public DbSet<Komment> kommentek { get; set; }
-        public DbSet<Palyazat> palyazatok { get; set; }
+        public DbSet<Palyazat> palyazatok { get; set; } 
         public DbSet<Orszag> orszagok { get; set; }
 
         public DbSet<KepKategoria>? KepKategoria { get; set; }
@@ -37,6 +37,6 @@ namespace PhotoApp.Context
              MisiDBConfig(optionsBuilder);
             //RajmundDBConfig(optionsBuilder);
         }
-
+      
     }
 }

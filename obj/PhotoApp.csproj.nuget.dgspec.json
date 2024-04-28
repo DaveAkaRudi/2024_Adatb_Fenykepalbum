@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Logic\\Desktop\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj": {}
+    "C:\\Users\\Logic\\Desktop\\xdd\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Logic\\Desktop\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj": {
+    "C:\\Users\\Logic\\Desktop\\xdd\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logic\\Desktop\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
+        "projectUniqueName": "C:\\Users\\Logic\\Desktop\\xdd\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
         "projectName": "PhotoApp",
-        "projectPath": "C:\\Users\\Logic\\Desktop\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
+        "projectPath": "C:\\Users\\Logic\\Desktop\\xdd\\2024_Adatb_Fenykepalbum\\PhotoApp.csproj",
         "packagesPath": "C:\\Users\\Logic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logic\\Desktop\\2024_Adatb_Fenykepalbum\\obj\\",
+        "outputPath": "C:\\Users\\Logic\\Desktop\\xdd\\2024_Adatb_Fenykepalbum\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Logic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.27, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

@@ -1,0 +1,40 @@
+﻿@model AllQueryResultsViewModel
+
+
+<h2>Category Ratings</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Average Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.CategoryRatings)
+        {
+            <tr>
+                <td>@item.KategoriaNev</td>
+                <td>@item.AtlagErtekeles</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>User Comment Counts</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Comment Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.UserCommentCounts)
+        {
+            <tr>
+                <td>@item.FelhasznaloNev</td>
+                <td>@item.KommentSzam</td>
+            </tr>
+        }
+    </tbody>
+</table>

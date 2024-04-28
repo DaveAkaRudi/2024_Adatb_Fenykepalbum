@@ -30,26 +30,30 @@
                         </div>
                     }
                 </div>
-                <form asp-controller="Access" asp-action="Regist" method="post">
+                <form asp-controller="Access" asp-action="Regist" method="post">    
                     <div class="mb-3">
                         <label class="form-label">Felhasználónév</label>
                         <input type="text" asp-for="nev" class="form-control" autocomplete="off">
+                        <span asp-validation-for="nev" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Email</label>
                         <input type="email" asp-for="email" class="form-control" autocomplete="off">
+                        <span asp-validation-for="email" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Jelszó</label>
                         <input type="password" asp-for="jelszo" class="form-control" name="password">
+                        <span asp-validation-for="jelszo" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Jelszó megismétlése</label>
-                        <input type="password" asp-for="jelszo" class="form-control" name="password_check">
+                        <input type="password" asp-for="jelszo" class="form-control" name="password_check"> 
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Születés dátuma</label>
-                        <input type="date" asp-for="szuletes_datuma" class="form-control">
+                        <input type="date" asp-for="szuletes_datuma" class="form-control" value="2000-01-01">
+                        <span asp-validation-for="szuletes_datuma" class="text-danger"></span>
                     </div>
                     <button type="submit" class="btn btn-primary btn-block">Regisztráció</button>
                    

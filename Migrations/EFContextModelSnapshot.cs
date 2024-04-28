@@ -58,8 +58,8 @@ namespace PhotoApp.Migrations
 
                     b.Property<string>("jelszo")
                         .IsRequired()
-                        .HasMaxLength(32)
-                        .HasColumnType("NVARCHAR2(32)");
+                        .HasMaxLength(64)
+                        .HasColumnType("NVARCHAR2(64)");
 
                     b.Property<string>("nev")
                         .IsRequired()
