@@ -41,8 +41,8 @@ namespace PhotoApp.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //  MisiDBConfig(optionsBuilder);
-            RajmundDBConfig(optionsBuilder);
+            MisiDBConfig(optionsBuilder);
+            //RajmundDBConfig(optionsBuilder);
         }
       
     }
