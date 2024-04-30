@@ -577,7 +577,6 @@ C:\Users\Logic\Desktop\PhotoApp\obj\Debug\net6.0\ref\PhotoApp.dll
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\appsettings.Development.json
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\appsettings.json
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\libman.json
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\PhotoApp.staticwebassets.runtime.json
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\PhotoApp.exe
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\PhotoApp.deps.json
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\bin\Debug\net6.0\PhotoApp.runtimeconfig.json
@@ -847,16 +846,6 @@ D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\ob
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\PhotoApp.RazorAssemblyInfo.cache
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\PhotoApp.RazorAssemblyInfo.cs
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\PhotoApp.sourcelink.json
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\staticwebassets.build.json
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\staticwebassets.development.json
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\staticwebassets\msbuild.PhotoApp.Microsoft.AspNetCore.StaticWebAssets.props
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\staticwebassets\msbuild.build.PhotoApp.props
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.PhotoApp.props
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.PhotoApp.props
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\staticwebassets.pack.json
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\scopedcss\bundle\PhotoApp.styles.css
-D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\scopedcss\projectbundle\PhotoApp.bundle.scp.css
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\PhotoApp.csproj.Up2Date
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\PhotoApp.dll
 D:\_uni\IV. felev\Adatbazis alapu rendszerek\_projekt\2024_Adatb_Fenykepalbum\obj\Debug\net6.0\refint\PhotoApp.dll

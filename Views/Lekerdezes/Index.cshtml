@@ -57,3 +57,41 @@
         }
     </tbody>
 </table>
+
+<h2>Category Image Counts</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Catery</th>
+            <th>Image Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.CategoryImageCounts)
+        {
+            <tr>
+                <td>@item.KategoriaNev</td>
+                <td>@item.KepSzam</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>User Image Counts</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Image Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.UserImageCounts)
+        {
+            <tr>
+                <td>@item.FelhasznaloNev</td>
+                <td>@item.KepSzam</td>
+            </tr>
+        }
+    </tbody>
+</table>
