@@ -35,10 +35,23 @@ namespace PhotoApp.Controllers
                                          KommentSzam = g.Count()
                                      }).ToList();
 
+            var telepulesPhotoCounts = (
+                from k in _context.kepek
+                join o in _context.orszagok
+                on k.orszag_id equals o.id
+                group k by o.nev into t
+                orderby t.Count() descending
+                select new TelepulesPhotoCountViewModel {
+                    Telepules = t.Key,
+                    Darab = t.Count()
+                }
+            ).ToList();
+
             var viewModel = new AllQueryResultsViewModel
             {
                 CategoryRatings = categoryRatings,
-                UserCommentCounts = userCommentCounts
+                UserCommentCounts = userCommentCounts,
+                TelepulesPhotoCounts = telepulesPhotoCounts
                 // Set other properties of the view model as needed
             };
 

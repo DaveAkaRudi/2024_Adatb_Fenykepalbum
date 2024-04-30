@@ -22,6 +22,17 @@ namespace PhotoApp.Controllers
             _context = context;
         }
 
+        public Felhasznalo userInfo(string nev){
+            return _context.felhasznalok.FirstOrDefault(a => a.nev == nev);
+        }
+
+        public Felhasznalo loggedUserInfo(){
+            var identity = (ClaimsIdentity)User.Identity;
+            var nev = identity.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            return userInfo(nev);
+        }
+
+
         public IActionResult Index()
         {
             var identity = (ClaimsIdentity)User.Identity;

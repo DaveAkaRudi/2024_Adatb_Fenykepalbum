@@ -38,3 +38,22 @@
         }
     </tbody>
 </table>
+
+<h2>Country Photo Counts</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th>Photo Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.TelepulesPhotoCounts)
+        {
+            <tr>
+                <td>@item.Telepules</td>
+                <td>@item.Darab</td>
+            </tr>
+        }
+    </tbody>
+</table>

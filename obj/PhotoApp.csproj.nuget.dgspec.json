@@ -49,9 +49,31 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework.Triggers": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "EntityFrameworkCore.Triggers": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.27, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",

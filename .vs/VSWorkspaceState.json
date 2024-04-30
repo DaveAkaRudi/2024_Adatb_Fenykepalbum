@@ -5,6 +5,6 @@
     "\\Controllers",
     "\\Migrations"
   ],
-  "SelectedNode": "\\Controllers\\AccessController.cs",
+  "SelectedNode": "\\Context\\EFContext.cs",
   "PreviewInSolutionExplorer": false
 }

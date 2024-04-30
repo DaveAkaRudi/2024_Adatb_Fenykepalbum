@@ -1,7 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using EntityFramework.Triggers;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using PhotoApp.Models;
 using System.Xml.Linq;
+using EntityFrameworkCore.Triggers;
 
 namespace PhotoApp.Context
 {
@@ -21,6 +23,11 @@ namespace PhotoApp.Context
         public DbSet<Orszag> orszagok { get; set; }
 
         public DbSet<KepKategoria>? KepKategoria { get; set; }
+
+        public override Task<Int32> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
+        {
+            return this.SaveChangesWithTriggersAsync(base.SaveChangesAsync, acceptAllChangesOnSuccess: true, cancellationToken: cancellationToken);
+        }
 
         private void MisiDBConfig(DbContextOptionsBuilder optionsBuilder)
         {

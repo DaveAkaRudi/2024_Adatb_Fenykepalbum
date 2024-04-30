@@ -77,7 +77,6 @@ namespace PhotoApp.Controllers
 
             return View(kep);
         }
-        //asd
 
         // GET: Kep/Create
         public IActionResult Create()

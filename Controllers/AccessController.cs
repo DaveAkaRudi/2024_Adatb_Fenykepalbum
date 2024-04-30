@@ -10,6 +10,9 @@ using System.Security.Cryptography;
 using Microsoft.Net.Http.Headers;
 using System.Net;
 using System.Web;
+using EntityFramework.Triggers;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace PhotoApp.Controllers
 {
@@ -140,8 +143,11 @@ namespace PhotoApp.Controllers
 
             _context.felhasznalok.Add(felhasznalo);
 
-            _context.SaveChanges();
-            
+            //_context.SaveChanges();
+
+
+            await _context.SaveChangesAsync();
+
             }
             catch (Exception ex)
             {

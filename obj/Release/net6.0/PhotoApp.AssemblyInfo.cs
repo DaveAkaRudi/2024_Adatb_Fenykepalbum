@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PhotoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d906331084129ae50241f552b0102af1818414c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b44f004fb6fbb553e2ac0652398b39020f4e6cd8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhotoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhotoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
