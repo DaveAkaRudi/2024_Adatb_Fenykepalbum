@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using Oracle.ManagedDataAccess.Client;
 using System.Data;
-using Newtonsoft.Json.Linq;
 
 namespace PhotoApp.Controllers
 {
@@ -60,9 +59,9 @@ namespace PhotoApp.Controllers
                 using (var command = conn.CreateCommand())
                 {
                     command.CommandText =@"begin :prm_Result := get_best_rated_image(); end;";
-
+                  
                     command.Parameters.Add(":prm_Result", OracleDbType.RefCursor, ParameterDirection.Output);
-
+                    
                     using (OracleDataReader reader = command.ExecuteReader())
                     {
                         if (reader.Read())
