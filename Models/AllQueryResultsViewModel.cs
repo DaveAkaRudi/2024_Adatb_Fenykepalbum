@@ -2,11 +2,14 @@
 {
     public class AllQueryResultsViewModel
     {
-        public List<CategoryRatingViewModel> CategoryRatings { get; set; }
-        public List<UserCommentCountViewModel> UserCommentCounts { get; set; }
-        public List<TelepulesPhotoCountViewModel> TelepulesPhotoCounts { get; set; }
-        public List<CategoryImageCountViewModel> CategoryImageCounts { get; set; }
-        public List<UserImageCountViewModel> UserImageCounts { get; set; }
+        public IEnumerable<CategoryRatingViewModel>? CategoryRatings { get; set; }
+        public IEnumerable<UserCommentCountViewModel>? UserCommentCounts { get; set; }
+        public IEnumerable<TelepulesPhotoCountViewModel>? TelepulesPhotoCounts { get; set; }
+        public IEnumerable<CategoryImageCountViewModel>? CategoryImageCounts { get; set; }
+        public IEnumerable<UserImageCountViewModel>? UserImageCounts { get; set; }
+        public IEnumerable<KategoriakAlbumonkent>? KategoriakAlbumonkent { get; set; }
+        public IEnumerable<AtlagosErtekelesFelhasznalonkent>? AtlagosErtekelesFelhasznalonkent { get; set; }
+        public IEnumerable<PalyazatokHataridoSzerint>? PalyazatokHataridoSzerint { get; set; }
 
     }
 }

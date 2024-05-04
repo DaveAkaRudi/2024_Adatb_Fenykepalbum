@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using EntityFramework.Triggers;
 
 namespace PhotoApp.Models
 {
@@ -31,15 +30,10 @@ namespace PhotoApp.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime szuletes_datuma { get; set; }
 
-        public Role role { get; set; }
+        public Role? role { get; set; }
 
         [NotMapped]
         public bool rememberMe { get; set; }
-
-        static Felhasznalo(){
-            Triggers<Felhasznalo>.Inserting += e => {
-                e.Entity.role = Role.User;
-            };
-        }
+       
     }
 }

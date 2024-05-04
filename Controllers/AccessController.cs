@@ -10,8 +10,6 @@ using System.Security.Cryptography;
 using Microsoft.Net.Http.Headers;
 using System.Net;
 using System.Web;
-using EntityFramework.Triggers;
-using Microsoft.EntityFrameworkCore;
 
 
 namespace PhotoApp.Controllers
@@ -31,7 +29,7 @@ namespace PhotoApp.Controllers
             return View();
         }
 
-        private bool CheckDatabaseConnection()
+        private static bool CheckDatabaseConnection()
         {
             try
             {

@@ -1,12 +1,14 @@
 ﻿@model AllQueryResultsViewModel
+@{
+    ViewData["Title"] = "Lekerdezesek";
+}
 
-
-<h2>Category Ratings</h2>
+<h2>Átlagos értékelés kategóriánként</h2>
 <table class="table">
     <thead>
         <tr>
-            <th>Category</th>
-            <th>Average Rating</th>
+            <th>Kategória</th>
+            <th>Átlagos értékelés</th>
         </tr>
     </thead>
     <tbody>
@@ -20,31 +22,13 @@
     </tbody>
 </table>
 
-<h2>User Comment Counts</h2>
-<table class="table">
-    <thead>
-        <tr>
-            <th>User</th>
-            <th>Comment Count</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.UserCommentCounts)
-        {
-            <tr>
-                <td>@item.FelhasznaloNev</td>
-                <td>@item.KommentSzam</td>
-            </tr>
-        }
-    </tbody>
-</table>
 
-<h2>Category Image Counts</h2>
+<h2>Kategóriákként hány képfeltöltés</h2>
 <table class="table">
     <thead>
         <tr>
-            <th>Category</th>
-            <th>Image Count</th>
+            <th>Kategória</th>
+            <th>képfeltöltések száma</th>
         </tr>
     </thead>
     <tbody>
@@ -58,12 +42,12 @@
     </tbody>
 </table>
 
-<h2>User Image Counts</h2>
+<h2>Felhasználóknak hány képfeltöltésük van</h2>
 <table class="table">
     <thead>
         <tr>
-            <th>User</th>
-            <th>Image Count</th>
+            <th>Felhasznááló</th>
+            <th>Képfeltöltések száma</th>
         </tr>
     </thead>
     <tbody>
@@ -77,12 +61,32 @@
     </tbody>
 </table>
 
-<h2>Country Photo Counts</h2>
+<h2>Felhasználóknak hány kommentjük van</h2>
 <table class="table">
     <thead>
         <tr>
-            <th>Country</th>
-            <th>Photo Count</th>
+            <th>Felhasználó</th>
+            <th>Kommentek száma</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.UserCommentCounts)
+        {
+            <tr>
+                <td>@item.FelhasznaloNev</td>
+                <td>@item.KommentSzam</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<h2>Országonként hány képfeltöltés</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ország</th>
+            <th>Képfeltöltések száma</th>
         </tr>
     </thead>
     <tbody>
@@ -91,6 +95,65 @@
             <tr>
                 <td>@item.Telepules</td>
                 <td>@item.Darab</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Kategóriák száma albumonként</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Album Címe</th>
+            <th>Kategóriák Száma</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var eredmeny in Model.KategoriakAlbumonkent)
+        {
+            <tr>
+                <td>@eredmeny.AlbumCime</td>
+                <td>@eredmeny.KategoriakSzama</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Átlagos értékelés felhasználónként</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Felhasználó Neve</th>
+            <th>Átlagos Értékelés</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var eredmeny in Model.AtlagosErtekelesFelhasznalonkent)
+        {
+            <tr>
+                <td>@eredmeny.FelhasznaloNeve</td>
+                <td>@eredmeny.AtlagosErtekeles</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Pályázatok határidő alapján csoportosítva</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Év</th>
+            <th>Hónap</th>
+            <th>Pályázatok Száma</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var eredmeny in Model.PalyazatokHataridoSzerint)
+        {
+            <tr>
+                <td>@eredmeny.Ev</td>
+                <td>@eredmeny.Honap</td>
+                <td>@eredmeny.PalyazatokSzama</td>
             </tr>
         }
     </tbody>
