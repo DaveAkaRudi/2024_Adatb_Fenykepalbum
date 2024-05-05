@@ -86,15 +86,37 @@ namespace PhotoApp.Controllers
                                                        FelhasznaloNeve = g.Key,
                                                        AtlagosErtekeles = g.Average(kp => kp.ertekeles)
                                                    };
-            //Pályázatok határidő szerint csoportosítva
-            var palyazatokHataridoSzerint = from p in _context.palyazatok
-                                            group p by new { Ev = p.hatarido.Year, Honap = p.hatarido.Month } into g
-                                            select new PalyazatokHataridoSzerint
-                                            {
-                                                Ev = g.Key.Ev,
-                                                Honap = g.Key.Honap,
-                                                PalyazatokSzama = g.Count()
-                                            };
+         
+            //Országonkénti átlagos értékelés
+            var countryRatings = from k in _context.kepek
+                                 join o in _context.orszagok on k.orszag_id equals o.id
+                                 group k by o.nev into g
+                                 select new CountryRatingViewModel
+                                 {
+                                     CountryName = g.Key,
+                                     AverageRating = g.Average(k => k.ertekeles)
+                                 };
+
+            //Albumonkénti átlagos értékelés
+            var albumAverageRatings = from a in _context.albumok
+                                      join k in _context.kepek on a.id equals k.album_id
+                                      group k by a.cim into g
+                                      select new AlbumRatingViewModel
+                                      {
+                                          AlbumTitle = g.Key,
+                                          AverageRating = g.Average(k => k.ertekeles)
+                                      };
+
+            //Kategóriánként legjobb értékelés
+            var maxCategoryRatings = from kk in _context.KepKategoria
+                                     join k in _context.kepek on kk.kep_id equals k.id
+                                     join cat in _context.kategoriak on kk.kategoria_id equals cat.id
+                                     group k by cat.nev into g
+                                     select new MaxCategoryRatingViewModel
+                                     {
+                                         CategoryName = g.Key,
+                                         MaxRating = g.Max(k => k.ertekeles)
+                                     };
 
 
             var viewModel = new AllQueryResultsViewModel
@@ -106,7 +128,9 @@ namespace PhotoApp.Controllers
                 UserImageCounts = userImageCounts,
                 KategoriakAlbumonkent =kategoriakAlbumonkent,
                 AtlagosErtekelesFelhasznalonkent = atlagosErtekelesFelhasznalonkent,
-                PalyazatokHataridoSzerint =palyazatokHataridoSzerint, 
+                AlbumRatingViewModel = albumAverageRatings,
+                CountryRatingViewModel = countryRatings,
+                MaxCategoryRatingViewModel = maxCategoryRatings,
             };
 
             return View(viewModel);

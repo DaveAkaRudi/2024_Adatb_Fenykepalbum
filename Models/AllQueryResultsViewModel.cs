@@ -9,7 +9,11 @@
         public IEnumerable<UserImageCountViewModel>? UserImageCounts { get; set; }
         public IEnumerable<KategoriakAlbumonkent>? KategoriakAlbumonkent { get; set; }
         public IEnumerable<AtlagosErtekelesFelhasznalonkent>? AtlagosErtekelesFelhasznalonkent { get; set; }
-        public IEnumerable<PalyazatokHataridoSzerint>? PalyazatokHataridoSzerint { get; set; }
+        public IEnumerable<CountryRatingViewModel>? CountryRatingViewModel { get; set; }
+        public IEnumerable<AlbumRatingViewModel>? AlbumRatingViewModel { get; set; }
+        public IEnumerable<MaxCategoryRatingViewModel>? MaxCategoryRatingViewModel { get; set; }
+
+
 
     }
 }
